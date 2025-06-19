@@ -1,0 +1,15 @@
+# Ignore environment variables
+.env
+*.env
+
+# Ignore Python cache and venv
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/

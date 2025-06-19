@@ -1,0 +1,58 @@
+create "Rock-Paper-Scissors" application.
+What: Play against computer
+Why: Easy logic; great to learn conditionals + game flow
+Features:
+Player selects choice, computer randomly chooses
+
+Score system
+Supabase: store game results
+
+create using python language
+**********************************************
+Open Bash in project folder>
+$ pip install -r requirements.txt
+$ python rps.py
+$ streamlit run rps_web.py
+>just enter
+
+[$ streamlit run rps_web.py
+
+      Welcome to Streamlit!
+
+      If you'd like to receive helpful onboarding emails, news, offers, promotio
+ns,
+      and the occasional swag, please enter your email address below. Otherwise,
+      leave this field blank.
+
+      Email:
+
+  You can find our privacy policy at https://streamlit.io/privacy-policy
+
+  Summary:
+  - This open source library collects usage statistics.
+  - We cannot see and do not store information contained inside Streamlit apps,
+    such as text, charts, images, etc.
+  - Telemetry data is stored in servers in the United States.
+  - If you'd like to opt out, add the following to %userprofile%/.streamlit/conf
+ig.toml,
+    creating that file if necessary:
+
+    [browser]
+    gatherUsageStats = false
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.100.56:8501]
+**********************************************
+Run in browser
+http://localhost:8501
+
+
+**********************************************
+Supabase project> Project Setting> Data API
+-Project URL
+
+Supabase project> Project Setting> API Keys
+-Key of anon public
